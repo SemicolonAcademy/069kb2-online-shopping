@@ -28,6 +28,8 @@
 	  #social_network
 	  {
 	  float:right;
+	  margin-right: 20px;
+	  margin-top: 70px;
 	  }
  
 article,
@@ -4085,6 +4087,8 @@ input[type="submit"].btn.btn-mini {
   border-bottom: 0;
   float: left;
   background-color:#fafafa;
+  margin-left: 10px;
+  margin-top: 70px;
 }
 
 .nav-tabs.nav-stacked > li > a {
@@ -6069,3 +6073,55 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+
+/* Left Nav Dropdown menu*/
+ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+}
+
+
+ul#nav li
+{
+	opacity: 10%;
+	float: left;  
+}
+ul#nav li a
+{
+	text-decoration: none;
+	display: block;
+	padding: 9px 19px;
+	color: rgb(7, 7, 7);
+	background-color: rgb(243, 247, 243);
+}
+
+ul#nav li a:hover
+{
+	background: #b3ecde;
+	color: #000000;
+
+}
+
+ul#nav li ul li
+{
+	float: none;
+}
+
+ul#nav li ul 
+{
+	position: relative;
+	display: none; 
+}
+
+ul#nav li:hover ul
+
+{
+	display: block;
+	float: left;
+	background: #515754;
+}
+
+

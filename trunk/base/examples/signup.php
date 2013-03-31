@@ -67,16 +67,16 @@
 
       <form class="form-signin">
         <h2 class="form-signin-heading" align="center">Registeration</h2>
-        <input type="text" class="input-block-level" placeholder="First Name">
-        <input type="text" class="input-block-level" placeholder="Last Name">
-        <input type="text" class="input-block-level" placeholder="User Name">
-        <input type="text" class="input-block-level" placeholder="E-Mail">
-        <input type="password" class="input-block-level" placeholder="Password">
-        <input type="password" class="input-block-level" placeholder="Confirm Password">
+        <input type="text" class="input-block-level" name="firstname" <?php $i_agree="fn" ?> placeholder="First Name">
+        <input type="text" class="input-block-level" name="lastname" <?php $i_agree="ln" ?> placeholder="Last Name">
+        <input type="text" class="input-block-level" name="username" <?php $i_agree="un" ?> placeholder="User Name">
+        <input type="text" class="input-block-level" name="email" <?php $i_agree="em" ?> placeholder="E-Mail">
+        <input type="password" class="input-block-level" name="password" <?php $i_agree="pw" ?> placeholder="Password">
+        <input type="password" class="input-block-level" name="confirm_password" <?php $i_agree="cpw" ?> placeholder="Confirm Password">
         <label class="checkbox">
-          <input type="checkbox" value="iagree"> I agree all the terms and conditions
+          <input type="checkbox" value="iagree" <?php $i_agree="ig" ?> > I agree all the terms and conditions
         </label>
-        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
+        <a href="reg.php"><button class="btn btn-large btn-primary" type="submit" >Sign in</button></a>
       </form>
 
     </div> <!-- /container -->

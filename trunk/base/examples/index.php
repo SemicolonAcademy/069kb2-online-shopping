@@ -49,9 +49,9 @@
       <p>Shop here anything.</p>
       
       <?php
-	  include "nav_top.php"
+//	  include "nav_top.php"
+	  include "nav.php"
 	  ?>  
-
 
 
 
@@ -79,6 +79,11 @@
 <?php
 include "left_nav.php";
 ?>
+
+
+
+
+
 
     	  
   </div> <!-- /container -->
@@ -111,7 +116,6 @@ include "left_nav.php";
     
 
   </body>
-  
-  
+   
   
 </html>
